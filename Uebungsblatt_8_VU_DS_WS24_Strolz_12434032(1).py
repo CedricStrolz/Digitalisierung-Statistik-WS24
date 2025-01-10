@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
-#Aufgabe 1
 M2 = {2 * i for i in range(1, 11)}
 M3 = {3 * i for i in range(1, 11)}
 M4 = {4 * i for i in range(1, 11)} 
@@ -33,10 +26,6 @@ In_allen = M2 & M3 & M4
 print("In allen drei Mengen:", In_allen)
 
 
-# In[52]:
-
-
-# Aufgabe 2
 encode_lerzeichen = {chr(32): 0}                # der chr(i) befehl gibt das zeichen mit dem korrospondierendem unicode aus " " = 32
 encode_zeichen = {chr(i): i - 64 for i in range(65, 91)}
 encode = {}
@@ -58,11 +47,3 @@ print(decode)
 print(Nachricht_Verschlüsselt)
 print(entschlüsseltenachrichrt2)
 print(N2)
-print("in the end we would like to thank our sponsor stackoverflow")
-
-
-# In[ ]:
-
-
-
-
